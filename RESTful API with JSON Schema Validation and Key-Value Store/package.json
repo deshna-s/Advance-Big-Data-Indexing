@@ -1,0 +1,22 @@
+{
+  "name": "info7255",
+  "version": "1.0.0",
+  "description": "Demo-1",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Gargava",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "nodemon": "^2.0.22",
+    "object-hash": "^3.0.0",
+    "redis": "^4.6.4"
+  }
+}
